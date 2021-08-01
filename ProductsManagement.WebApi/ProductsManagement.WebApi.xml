@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ProductsManagement.WebApi</name>
+    </assembly>
+    <members>
+        <member name="M:ProductsManagement.WebApi.Controllers.v1.ProductController.GetAllProductsList(ProductsManagement.Application.Features.Products.Queries.GetAllProducts.GetAllProductsParameter)">
+            <summary>
+            Get All products paginated list filtered by title or description or not.
+            </summary>
+            <param name="filter"></param>
+            <returns>Return products paginated list with filter criteria.</returns>
+        </member>
+        <member name="M:ProductsManagement.WebApi.Controllers.v1.ProductController.GetProductDetails(System.Int32)">
+            <summary>
+            Get product details by id.
+            </summary>
+            <param name="id"></param>
+            <returns>Return product details.</returns>
+        </member>
+        <member name="M:ProductsManagement.WebApi.Controllers.v1.ProductController.CreatNewProduct(ProductsManagement.Application.Features.Products.Commands.CreateProduct.CreateProductCommand)">
+            <summary>
+            Create new product.
+            </summary>
+            <param name="command"></param>
+            <returns>Return whether product created successfully or not</returns>
+        </member>
+        <member name="M:ProductsManagement.WebApi.Controllers.v1.ProductController.UpdateProduct(System.Int32,ProductsManagement.Application.Features.Products.Commands.UpdateProduct.UpdateProductCommand)">
+            <summary>
+            Update product
+            </summary>
+            <param name="id"></param>
+            <param name="command"></param>
+            <returns>Return whether product updated successfully or not</returns>
+        </member>
+        <member name="M:ProductsManagement.WebApi.Controllers.v1.ProductController.Delete(System.Int32)">
+            <summary>
+            Delete product.
+            </summary>
+            <param name="id"></param>
+            <returns>Return whether product deleted successfully or not</returns>
+        </member>
+    </members>
+</doc>
